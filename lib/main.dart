@@ -150,6 +150,7 @@ class _MyHomePageState extends State<MyHomePage> {
               appBar.preferredSize.height -
               mediaQuery.padding.top) *
           0.7,
+      padding: EdgeInsets.symmetric(horizontal: 10.0),
       child: TransactionList(_userTransactions, _deleteTransaction),
     );
 
